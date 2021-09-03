@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e17e73cfc197fa7b5a5bc75506fe06be",
+    "packages": [
+        {
+            "name": "psr/container",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/container/issues",
+                "source": "https://github.com/php-fig/container/tree/1.1.1"
+            },
+            "time": "2021-03-05T17:36:06+00:00"
+        },
+        {
+            "name": "tarasmatskovich/house-container",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tarasMatskovich/house-container.git",
+                "reference": "c1f20ed27c6c742900af11a5a83b2c0015403393"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tarasMatskovich/house-container/zipball/c1f20ed27c6c742900af11a5a83b2c0015403393",
+                "reference": "c1f20ed27c6c742900af11a5a83b2c0015403393",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "housedi\\": "src/container",
+                    "tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "matskovich.taras<Мацькович Тарас>",
+                    "email": "matskovich.taras@gmail.com"
+                }
+            ],
+            "description": "PHP dependency injection container",
+            "keywords": [
+                "container",
+                "dependency",
+                "dependency injection",
+                "di",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/tarasMatskovich/house-container/issues",
+                "source": "https://github.com/tarasMatskovich/house-container/tree/v0.0.1"
+            },
+            "time": "2020-01-09T13:48:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
